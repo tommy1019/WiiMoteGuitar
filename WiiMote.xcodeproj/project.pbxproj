@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65492302257D8F620083224F /* WiiMoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492301257D8F620083224F /* WiiMoteApp.swift */; };
+		65492304257D8F620083224F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492303257D8F620083224F /* ContentView.swift */; };
+		65492306257D8F640083224F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65492305257D8F640083224F /* Assets.xcassets */; };
+		65492309257D8F640083224F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65492308257D8F640083224F /* Preview Assets.xcassets */; };
+		65492315257D8F650083224F /* WiiMoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492314257D8F650083224F /* WiiMoteTests.swift */; };
+		65492320257D8F650083224F /* WiiMoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549231F257D8F650083224F /* WiiMoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65492311257D8F650083224F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654922F6257D8F620083224F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654922FD257D8F620083224F;
+			remoteInfo = WiiMote;
+		};
+		6549231C257D8F650083224F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654922F6257D8F620083224F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654922FD257D8F620083224F;
+			remoteInfo = WiiMote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654922FE257D8F620083224F /* WiiMote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiMote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65492301257D8F620083224F /* WiiMoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteApp.swift; sourceTree = "<group>"; };
+		65492303257D8F620083224F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65492305257D8F640083224F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65492308257D8F640083224F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6549230A257D8F640083224F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6549230B257D8F640083224F /* WiiMote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiiMote.entitlements; sourceTree = "<group>"; };
+		65492310257D8F650083224F /* WiiMoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiMoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65492314257D8F650083224F /* WiiMoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteTests.swift; sourceTree = "<group>"; };
+		65492316257D8F650083224F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6549231B257D8F650083224F /* WiiMoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiMoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549231F257D8F650083224F /* WiiMoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteUITests.swift; sourceTree = "<group>"; };
+		65492321257D8F650083224F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654922FB257D8F620083224F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549230D257D8F650083224F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65492318257D8F650083224F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654922F5257D8F620083224F = {
+			isa = PBXGroup;
+			children = (
+				65492300257D8F620083224F /* WiiMote */,
+				65492313257D8F650083224F /* WiiMoteTests */,
+				6549231E257D8F650083224F /* WiiMoteUITests */,
+				654922FF257D8F620083224F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654922FF257D8F620083224F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654922FE257D8F620083224F /* WiiMote.app */,
+				65492310257D8F650083224F /* WiiMoteTests.xctest */,
+				6549231B257D8F650083224F /* WiiMoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65492300257D8F620083224F /* WiiMote */ = {
+			isa = PBXGroup;
+			children = (
+				65492301257D8F620083224F /* WiiMoteApp.swift */,
+				65492303257D8F620083224F /* ContentView.swift */,
+				65492305257D8F640083224F /* Assets.xcassets */,
+				6549230A257D8F640083224F /* Info.plist */,
+				6549230B257D8F640083224F /* WiiMote.entitlements */,
+				65492307257D8F640083224F /* Preview Content */,
+			);
+			path = WiiMote;
+			sourceTree = "<group>";
+		};
+		65492307257D8F640083224F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65492308257D8F640083224F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65492313257D8F650083224F /* WiiMoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				65492314257D8F650083224F /* WiiMoteTests.swift */,
+				65492316257D8F650083224F /* Info.plist */,
+			);
+			path = WiiMoteTests;
+			sourceTree = "<group>";
+		};
+		6549231E257D8F650083224F /* WiiMoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6549231F257D8F650083224F /* WiiMoteUITests.swift */,
+				65492321257D8F650083224F /* Info.plist */,
+			);
+			path = WiiMoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654922FD257D8F620083224F /* WiiMote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65492324257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMote" */;
+			buildPhases = (
+				654922FA257D8F620083224F /* Sources */,
+				654922FB257D8F620083224F /* Frameworks */,
+				654922FC257D8F620083224F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiMote;
+			productName = WiiMote;
+			productReference = 654922FE257D8F620083224F /* WiiMote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6549230F257D8F650083224F /* WiiMoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65492327257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMoteTests" */;
+			buildPhases = (
+				6549230C257D8F650083224F /* Sources */,
+				6549230D257D8F650083224F /* Frameworks */,
+				6549230E257D8F650083224F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65492312257D8F650083224F /* PBXTargetDependency */,
+			);
+			name = WiiMoteTests;
+			productName = WiiMoteTests;
+			productReference = 65492310257D8F650083224F /* WiiMoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6549231A257D8F650083224F /* WiiMoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6549232A257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMoteUITests" */;
+			buildPhases = (
+				65492317257D8F650083224F /* Sources */,
+				65492318257D8F650083224F /* Frameworks */,
+				65492319257D8F650083224F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6549231D257D8F650083224F /* PBXTargetDependency */,
+			);
+			name = WiiMoteUITests;
+			productName = WiiMoteUITests;
+			productReference = 6549231B257D8F650083224F /* WiiMoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654922F6257D8F620083224F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					654922FD257D8F620083224F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6549230F257D8F650083224F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 654922FD257D8F620083224F;
+					};
+					6549231A257D8F650083224F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 654922FD257D8F620083224F;
+					};
+				};
+			};
+			buildConfigurationList = 654922F9257D8F620083224F /* Build configuration list for PBXProject "WiiMote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654922F5257D8F620083224F;
+			productRefGroup = 654922FF257D8F620083224F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654922FD257D8F620083224F /* WiiMote */,
+				6549230F257D8F650083224F /* WiiMoteTests */,
+				6549231A257D8F650083224F /* WiiMoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654922FC257D8F620083224F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65492309257D8F640083224F /* Preview Assets.xcassets in Resources */,
+				65492306257D8F640083224F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549230E257D8F650083224F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65492319257D8F650083224F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654922FA257D8F620083224F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65492304257D8F620083224F /* ContentView.swift in Sources */,
+				65492302257D8F620083224F /* WiiMoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549230C257D8F650083224F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65492315257D8F650083224F /* WiiMoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65492317257D8F650083224F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65492320257D8F650083224F /* WiiMoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65492312257D8F650083224F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654922FD257D8F620083224F /* WiiMote */;
+			targetProxy = 65492311257D8F650083224F /* PBXContainerItemProxy */;
+		};
+		6549231D257D8F650083224F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654922FD257D8F620083224F /* WiiMote */;
+			targetProxy = 6549231C257D8F650083224F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65492322257D8F650083224F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65492323257D8F650083224F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		65492325257D8F650083224F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiiMote/WiiMote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"WiiMote/Preview Content\"";
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WiiMote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65492326257D8F650083224F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiiMote/WiiMote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"WiiMote/Preview Content\"";
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WiiMote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65492328257D8F650083224F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				INFOPLIST_FILE = WiiMoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiMote.app/Contents/MacOS/WiiMote";
+			};
+			name = Debug;
+		};
+		65492329257D8F650083224F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				INFOPLIST_FILE = WiiMoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiiMote.app/Contents/MacOS/WiiMote";
+			};
+			name = Release;
+		};
+		6549232B257D8F650083224F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				INFOPLIST_FILE = WiiMoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WiiMote;
+			};
+			name = Debug;
+		};
+		6549232C257D8F650083224F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				INFOPLIST_FILE = WiiMoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WiiMote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654922F9257D8F620083224F /* Build configuration list for PBXProject "WiiMote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65492322257D8F650083224F /* Debug */,
+				65492323257D8F650083224F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65492324257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65492325257D8F650083224F /* Debug */,
+				65492326257D8F650083224F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65492327257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65492328257D8F650083224F /* Debug */,
+				65492329257D8F650083224F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6549232A257D8F650083224F /* Build configuration list for PBXNativeTarget "WiiMoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6549232B257D8F650083224F /* Debug */,
+				6549232C257D8F650083224F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654922F6257D8F620083224F /* Project object */;
+}
