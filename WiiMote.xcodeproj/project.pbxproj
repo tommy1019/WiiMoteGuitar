@@ -15,7 +15,6 @@
 		65492315257D8F650083224F /* WiiMoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492314257D8F650083224F /* WiiMoteTests.swift */; };
 		65492320257D8F650083224F /* WiiMoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549231F257D8F650083224F /* WiiMoteUITests.swift */; };
 		65492331257D8FB80083224F /* WiiMoteConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492330257D8FB80083224F /* WiiMoteConnectionManager.swift */; };
-		65A63A572581FBEB00A8D130 /* HIDDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65012C37257F750F002A637A /* HIDDriverKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A63A572581FBEB00A8D130 /* HIDDriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
