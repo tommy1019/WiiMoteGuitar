@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6508E49B257DF63800CF2792 /* ConnectedWiiRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508E49A257DF63800CF2792 /* ConnectedWiiRemote.swift */; };
 		65492302257D8F620083224F /* WiiMoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492301257D8F620083224F /* WiiMoteApp.swift */; };
 		65492304257D8F620083224F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492303257D8F620083224F /* ContentView.swift */; };
 		65492306257D8F640083224F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65492305257D8F640083224F /* Assets.xcassets */; };
 		65492309257D8F640083224F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65492308257D8F640083224F /* Preview Assets.xcassets */; };
 		65492315257D8F650083224F /* WiiMoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492314257D8F650083224F /* WiiMoteTests.swift */; };
 		65492320257D8F650083224F /* WiiMoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549231F257D8F650083224F /* WiiMoteUITests.swift */; };
+		65492331257D8FB80083224F /* WiiMoteConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65492330257D8FB80083224F /* WiiMoteConnectionManager.swift */; };
+		65A63A572581FBEB00A8D130 /* HIDDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65012C37257F750F002A637A /* HIDDriverKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65012C37257F750F002A637A /* HIDDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIDDriverKit.framework; path = System/Library/Frameworks/HIDDriverKit.framework; sourceTree = SDKROOT; };
+		6508E49A257DF63800CF2792 /* ConnectedWiiRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedWiiRemote.swift; sourceTree = "<group>"; };
 		654922FE257D8F620083224F /* WiiMote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiiMote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65492301257D8F620083224F /* WiiMoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteApp.swift; sourceTree = "<group>"; };
 		65492303257D8F620083224F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +51,9 @@
 		6549231B257D8F650083224F /* WiiMoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiiMoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549231F257D8F650083224F /* WiiMoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteUITests.swift; sourceTree = "<group>"; };
 		65492321257D8F650083224F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65492330257D8FB80083224F /* WiiMoteConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiMoteConnectionManager.swift; sourceTree = "<group>"; };
+		65F828262581ED050036986F /* WiiMote-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiiMote-Bridging-Header.h"; sourceTree = "<group>"; };
+		65F828302581EF400036986F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A63A572581FBEB00A8D130 /* HIDDriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65012C36257F750F002A637A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F828302581EF400036986F /* IOKit.framework */,
+				65012C37257F750F002A637A /* HIDDriverKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		654922F5257D8F620083224F = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +98,7 @@
 				65492313257D8F650083224F /* WiiMoteTests */,
 				6549231E257D8F650083224F /* WiiMoteUITests */,
 				654922FF257D8F620083224F /* Products */,
+				65012C36257F750F002A637A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,9 @@
 				6549230A257D8F640083224F /* Info.plist */,
 				6549230B257D8F640083224F /* WiiMote.entitlements */,
 				65492307257D8F640083224F /* Preview Content */,
+				65492330257D8FB80083224F /* WiiMoteConnectionManager.swift */,
+				6508E49A257DF63800CF2792 /* ConnectedWiiRemote.swift */,
+				65F828262581ED050036986F /* WiiMote-Bridging-Header.h */,
 			);
 			path = WiiMote;
 			sourceTree = "<group>";
@@ -199,6 +221,7 @@
 				TargetAttributes = {
 					654922FD257D8F620083224F = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					6549230F257D8F650083224F = {
 						CreatedOnToolsVersion = 12.2;
@@ -261,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65492331257D8FB80083224F /* WiiMoteConnectionManager.swift in Sources */,
 				65492304257D8F620083224F /* ContentView.swift in Sources */,
 				65492302257D8F620083224F /* WiiMoteApp.swift in Sources */,
+				6508E49B257DF63800CF2792 /* ConnectedWiiRemote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +443,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WiiMote/WiiMote.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WiiMote/Preview Content\"";
-				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WiiMote/Info.plist;
@@ -433,6 +459,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WiiMote/WiiMote-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -442,11 +472,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WiiMote/WiiMote.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WiiMote/Preview Content\"";
-				DEVELOPMENT_TEAM = WVW9YYWLTW;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WiiMote/Info.plist;
@@ -457,6 +488,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tommysource.WiiMote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "WiiMote/WiiMote-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

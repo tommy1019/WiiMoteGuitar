@@ -20,5 +20,9 @@
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Used to connect to WiiRemotes</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array/>
 </dict>
 </plist>
